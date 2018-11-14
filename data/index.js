@@ -5,7 +5,14 @@
 //     uniqueID: false
 // }
 
-let reservations = []
+let reservations = [
+    {
+        name: 'Ahmed',
+        email: 'ahmed@example.com',
+        uniqueID: 'afhaque89',
+        phone: '000-000-0000'
+      }
+]
 
 module.exports = {
         getReservation () {
@@ -17,5 +24,6 @@ module.exports = {
                 data.isWaitlisted = true
             }
             reservations.push(data)
+            console.log(reservations)
         }
 }
