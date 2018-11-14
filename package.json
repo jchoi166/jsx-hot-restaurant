@@ -1,0 +1,28 @@
+{
+  "name": "jsx-hot-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchoi166/jsx-hot-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchoi166/jsx-hot-restaurant/issues"
+  },
+  "homepage": "https://github.com/jchoi166/jsx-hot-restaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-react-views": "^0.10.5",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
